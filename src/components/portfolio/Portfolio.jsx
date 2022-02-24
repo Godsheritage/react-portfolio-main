@@ -98,9 +98,7 @@ const Portfolio = () => {
                 <span>
                   * Developed Front End experience using React JS, Redux, And
                   SASS *Built Application with React while managing sate through
-                  Asynchronous Redux actions using Redux Thunk *Implemented the
-                  React Router DOM to allow nested routing within application
-                  components.{" "}
+                  Asynchronous Redux actions using Redux Thunk.{" "}
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
@@ -134,8 +132,6 @@ const Portfolio = () => {
                 <h2>Feedback UI</h2>
                 <span>
                   Feedback UI is a visually aesthetic web application that
-                  collects feedback data from users, that consists of a number
-                  value on a scale of 1 to 10 and a feedback text. This App
                   allows users to add, update and delete feedback. It uses a
                   mock REST api with json-server.{" "}
                 </span>
@@ -170,11 +166,10 @@ const Portfolio = () => {
               <div className="back-content middle">
                 <h2>House Marketplace</h2>
                 <span>
-                  * Developed Front End experience using React JS * Allowed
-                  users to be able to list houses for sale along with their
-                  offers *Integrated firebase v9 in order to add authenticatin
-                  and file storage functionalities * Implemented Google Geo
-                  coding to get longitude and latitude of house listings .{" "}
+                  * Developed Front End experience using React JS *Integrated
+                  firebase v9 in order to add authenticatin and file storage
+                  functionalities * Implemented Google Geo coding to get
+                  longitude and latitude of house listings .{" "}
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
@@ -210,8 +205,7 @@ const Portfolio = () => {
                   Developed Front End experience using React JS, and used
                   reducers for state management *integrated Github REST API to
                   search for user profiles based on their Github Username *
-                  interated tailwind CSS and daisy UI for better styling of
-                  application components
+                  interated tailwind CSS and daisy UI s
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
