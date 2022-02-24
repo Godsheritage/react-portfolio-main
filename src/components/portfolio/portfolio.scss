@@ -26,6 +26,8 @@ $blue-bg:#24263B;
             .front img{
                 width:20rem;
                 height:18.7rem;
+                // height:auto;
+                overflow-y:visible;
                 border:none;    
                 padding:15px 15px 15px 15px;
                 background-color: $orange;
