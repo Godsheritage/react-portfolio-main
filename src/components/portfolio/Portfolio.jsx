@@ -105,7 +105,7 @@ const Portfolio = () => {
                 <div className="btn-main">
                   <button className="btn-3">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
+                      href="https://github.com/Godsheritage/react-portfolio-main"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -114,7 +114,7 @@ const Portfolio = () => {
                   </button>
                   <button className="btn-3-1">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
+                      href="https://react-portfolio-ruddy.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
