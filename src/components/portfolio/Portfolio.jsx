@@ -1,10 +1,10 @@
 import "./portfolio.scss";
-import projectPicture1 from '../../assets/images/3.png'
-import projectPicture2 from '../../assets/images/1.png'
-import projectPicture3 from '../../assets/images/2.png'
-import projectPicture4 from '../../assets/images/11.png'
-import projectPicture5 from '../../assets/images/5.png'
-import projectPicture6 from '../../assets/images/6.png'
+import projectPicture1 from "../../assets/images/3.png";
+import projectPicture2 from "../../assets/images/1.png";
+import projectPicture3 from "../../assets/images/2.png";
+import projectPicture4 from "../../assets/images/11.png";
+import projectPicture5 from "../../assets/images/5.png";
+import projectPicture6 from "../../assets/images/6.png";
 
 const Portfolio = () => {
   return (
@@ -19,7 +19,7 @@ const Portfolio = () => {
         <div className="img-container">
           <div className="card middle">
             <div className="front">
-              <img src = {projectPicture1} alt="Project1" />
+              <img src={projectPicture1} alt="Project1" />
             </div>
             <div className="back">
               <div className="back-content middle">
@@ -33,15 +33,17 @@ const Portfolio = () => {
                   <button className="btn-3">
                     <a
                       href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Code
                     </a>
                   </button>
                   <button className="btn-3-1">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      href="https://godsheritage.github.io/Repair/"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Application
                     </a>
@@ -52,7 +54,7 @@ const Portfolio = () => {
           </div>
           <div className="card middle">
             <div className="front">
-            <img src = {projectPicture2} alt="Project2" />
+              <img src={projectPicture2} alt="Project2" />
             </div>
             <div className="back">
               <div className="back-content middle">
@@ -66,16 +68,18 @@ const Portfolio = () => {
                 <div className="btn-main">
                   <button className="btn-3">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      href="https://github.com/Godsheritage/Movie-Fight-"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Code
                     </a>
                   </button>
                   <button className="btn-3-1">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      href="https://godsheritage.github.io/Movie-Fight-/"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Application
                     </a>
@@ -86,7 +90,44 @@ const Portfolio = () => {
           </div>
           <div className="card middle">
             <div className="front">
-            <img src = {projectPicture3} alt="Project3" />
+              <img src={projectPicture3} alt="Project3" />
+            </div>
+            <div className="back">
+              <div className="back-content middle">
+                <h2>Portfolio Website</h2>
+                <span>
+                  * Developed Front End experience using React JS, Redux, And
+                  SASS *Built Application with React while managing sate through
+                  Asynchronous Redux actions using Redux Thunk *Implemented the
+                  React Router DOM to allow nested routing within application
+                  components.{" "}
+                </span>
+                <div className="btn-main">
+                  <button className="btn-3">
+                    <a
+                      href="https://github.com/Godsheritage/Repair"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Code
+                    </a>
+                  </button>
+                  <button className="btn-3-1">
+                    <a
+                      href="https://github.com/Godsheritage/Repair"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Application
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card middle">
+            <div className="front">
+              <img src={projectPicture5} alt="Project5" />
             </div>
             <div className="back">
               <div className="back-content middle">
@@ -99,8 +140,9 @@ const Portfolio = () => {
                 <div className="btn-main">
                   <button className="btn-3">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      href="https://github.com/Godsheritage/Feedback-UI-main"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Code
                     </a>
@@ -108,7 +150,8 @@ const Portfolio = () => {
                   <button className="btn-3-1">
                     <a
                       href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Application
                     </a>
@@ -119,29 +162,34 @@ const Portfolio = () => {
           </div>
           <div className="card middle">
             <div className="front">
-            <img src = {projectPicture3} alt="Project3" />
+              <img src={projectPicture4} alt="Project4" />
             </div>
             <div className="back">
               <div className="back-content middle">
-                <h2>Feedback UI</h2>
+                <h2>House Marketplace</h2>
                 <span>
-                  Feedback UI is a visually aesthetic web application that
-                  collects feedback data from users, that consists of a number
-                  value on a scale of 1 to 10 and a feedback text.{" "}
+                  * Developed Front End experience using React JS * Allowed
+                  users to be able to list houses for sale along with their
+                  offers *Integrated firebase v9 in order to add authenticatin
+                  and file storage functionalities * Implemented Google Geo
+                  coding to get longitude and latitude of house listings
+                  .{" "}
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      href="https://github.com/Godsheritage/house-marketing-app"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Code
                     </a>
                   </button>
                   <button className="btn-3-1">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      href="https://house-marketing-app-kappa.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Application
                     </a>
@@ -152,64 +200,33 @@ const Portfolio = () => {
           </div>
           <div className="card middle">
             <div className="front">
-            <img src = {projectPicture3} alt="Project3" />
-            </div>
-            <div className="back">
-              <div className="back-content middle">
-                <h2>Feedback UI</h2>
-                <span>
-                  Feedback UI is a visually aesthetic web application that
-                  collects feedback data from users, that consists of a number
-                  value on a scale of 1 to 10 and a feedback text.{" "}
-                </span>
-                <div className="btn-main">
-                  <button className="btn-3">
-                    <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
-                    >
-                      View Code
-                    </a>
-                  </button>
-                  <button className="btn-3-1">
-                    <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
-                    >
-                      View Application
-                    </a>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card middle">
-            <div className="front">
-            <img src = {projectPicture3} alt="Project3" />
+              <img src={projectPicture6} alt="Project6" />
             </div>
             <div className="back">
               <div className="back-content middle">
                 <h2>Github Profile Finder</h2>
                 <span>
-                  Feedback UI is a visually aesthetic web application that
-                  collects feedback data from users, that consists of a number
-                  value on a scale of 1 to 10 and a feedback text.{" "}
-                  Github Finder is a web application for retrieving github profile of users upon search
-                  *Integrated Github Rest API 
+                  Developed Front End experience using React JS, and used
+                  reducers for state management *integrated Github REST API to
+                  search for user profiles based on their Github Username *
+                  interated tailwind CSS and daisy UI for better styling of
+                  application components
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      href="https://github.com/Godsheritage/github-profile-finder"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Code
                     </a>
                   </button>
                   <button className="btn-3-1">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
-                      target="_blank" rel = 'noreferrer'
+                      href="https://github-profile-finder-kappa.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       View Application
                     </a>
@@ -218,7 +235,6 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-         
         </div>
       </div>
     </section>
