@@ -135,12 +135,14 @@ const Portfolio = () => {
                 <span>
                   Feedback UI is a visually aesthetic web application that
                   collects feedback data from users, that consists of a number
-                  value on a scale of 1 to 10 and a feedback text.{" "}
+                  value on a scale of 1 to 10 and a feedback text. This App
+                  allows users to add, update and delete feedback. It uses a
+                  mock REST api with json-server.{" "}
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
                     <a
-                      href="https://github.com/Godsheritage/Feedback-UI-main"
+                      href="https://github.com/Godsheritage/feedback-interface-application"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -149,7 +151,7 @@ const Portfolio = () => {
                   </button>
                   <button className="btn-3-1">
                     <a
-                      href="https://github.com/Godsheritage/Repair"
+                      href="https://feedback-interface-application.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -172,8 +174,7 @@ const Portfolio = () => {
                   users to be able to list houses for sale along with their
                   offers *Integrated firebase v9 in order to add authenticatin
                   and file storage functionalities * Implemented Google Geo
-                  coding to get longitude and latitude of house listings
-                  .{" "}
+                  coding to get longitude and latitude of house listings .{" "}
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
