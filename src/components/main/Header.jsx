@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <section className="main-section">
+    <section className="main-section" id = 'header'>
       <nav>
         <div className="logo">
           <h1>
@@ -28,7 +28,7 @@ const Header = () => {
         </div>
         <ul className="mainMenu">
           <li className="active">
-            <a href="#">HOME</a>
+            <a href="#header">HOME</a>
           </li>
           <li>
             <a href="#about">ABOUT</a>

@@ -19,7 +19,7 @@ const Portfolio = () => {
         <div className="img-container">
           <div className="card middle">
             <div className="front">
-              <img src = {projectPicture1} alt="Project picture" />
+              <img src = {projectPicture1} alt="Project1" />
             </div>
             <div className="back">
               <div className="back-content middle">
@@ -33,7 +33,7 @@ const Portfolio = () => {
                   <button className="btn-3">
                     <a
                       href="https://github.com/Godsheritage/Repair"
-                      target="_blank"
+                      target="_blank" rel = 'noreferrer'
                     >
                       View Code
                     </a>
@@ -41,7 +41,7 @@ const Portfolio = () => {
                   <button className="btn-3-1">
                     <a
                       href="https://github.com/Godsheritage/Repair"
-                      target="_blank"
+                      target="_blank" rel = 'noreferrer'
                     >
                       View Application
                     </a>
@@ -52,7 +52,7 @@ const Portfolio = () => {
           </div>
           <div className="card middle">
             <div className="front">
-            <img src = {projectPicture2} alt="Project picture" />
+            <img src = {projectPicture2} alt="Project2" />
             </div>
             <div className="back">
               <div className="back-content middle">
@@ -67,7 +67,7 @@ const Portfolio = () => {
                   <button className="btn-3">
                     <a
                       href="https://github.com/Godsheritage/Repair"
-                      target="_blank"
+                      target="_blank" rel = 'noreferrer'
                     >
                       View Code
                     </a>
@@ -75,7 +75,7 @@ const Portfolio = () => {
                   <button className="btn-3-1">
                     <a
                       href="https://github.com/Godsheritage/Repair"
-                      target="_blank"
+                      target="_blank" rel = 'noreferrer'
                     >
                       View Application
                     </a>
@@ -86,7 +86,7 @@ const Portfolio = () => {
           </div>
           <div className="card middle">
             <div className="front">
-            <img src = {projectPicture3} alt="Project picture" />
+            <img src = {projectPicture3} alt="Project3" />
             </div>
             <div className="back">
               <div className="back-content middle">
@@ -100,7 +100,7 @@ const Portfolio = () => {
                   <button className="btn-3">
                     <a
                       href="https://github.com/Godsheritage/Repair"
-                      target="_blank"
+                      target="_blank" rel = 'noreferrer'
                     >
                       View Code
                     </a>
@@ -108,7 +108,7 @@ const Portfolio = () => {
                   <button className="btn-3-1">
                     <a
                       href="https://github.com/Godsheritage/Repair"
-                      target="_blank"
+                      target="_blank" rel = 'noreferrer'
                     >
                       View Application
                     </a>
@@ -119,7 +119,7 @@ const Portfolio = () => {
           </div>
           <div className="card middle">
             <div className="front">
-            <img src = {projectPicture4} alt="Project picture" />
+            <img src = {projectPicture4} alt="Project4" />
             </div>
             <div className="back">
               <div className="back-content middle">
@@ -129,7 +129,7 @@ const Portfolio = () => {
           </div>
           <div className="card middle">
             <div className="front">
-            <img src = {projectPicture5} alt="Project picture" />
+            <img src = {projectPicture5} alt="Project5" />
             </div>
             <div className="back">
               <div className="back-content middle">
@@ -139,7 +139,7 @@ const Portfolio = () => {
           </div>
           <div className="card middle">
             <div className="front">
-            <img src = {projectPicture6} alt="Project picture" />
+            <img src = {projectPicture6} alt="Project6" />
             </div>
             <div className="back">
               <div className="back-content middle">

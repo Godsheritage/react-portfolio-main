@@ -8,9 +8,11 @@ const Footer = () => {
           Designed and Developed by <span class="col">'</span>Godsherit
           <span className ="col">age.</span>
         </p>
-        <a href="#" className = "goToTop">
-          <FaArrowUp/>
-        </a>
+        <button>
+          <a href="#header" className = "goToTop">
+            <FaArrowUp/>
+          </a>
+        </button>
       </div>
   );
 };
