@@ -1,4 +1,4 @@
-import "./portfolio.scss";
+import "./projects.scss";
 import projectPicture1 from "../../assets/images/3.png";
 import projectPicture2 from "../../assets/images/1.png";
 import projectPicture3 from "../../assets/images/2.png";
@@ -6,13 +6,13 @@ import projectPicture4 from "../../assets/images/11.png";
 import projectPicture5 from "../../assets/images/5.png";
 import projectPicture6 from "../../assets/images/6.png";
 
-const Portfolio = () => {
+const Projects = () => {
   return (
     <section className="portfolio" id="portfolio">
       <div className="portfolio-container">
         <div className="heading-space">
           <h1 className="h1">
-            <span className="col">My</span> Portfolio
+            <span className="col">My</span> Projects
           </h1>
           <hr className="hr" />
         </div>
@@ -236,4 +236,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;
