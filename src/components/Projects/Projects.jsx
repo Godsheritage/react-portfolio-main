@@ -60,10 +60,12 @@ const Projects = () => {
               <div className="back-content middle">
                 <h2>Shoe Store</h2>
                 <span>
-                Shoe store is a visually appealing E-commerce web application, where users order can order shoes of their choice.
-*Developed Front End experience using React JS, Context, And SASS
-*Built Application with React while managing state with the useContext API
-*Implemented the React Router DOM to allow nested routing within application components 💪
+                  Shoe store is a visually appealing E-commerce web application,
+                  where users order can order shoes of their choice. *Developed
+                  Front End experience using React JS, Context, And SASS *Built
+                  Application with React while managing state with the
+                  useContext API *Implemented the React Router DOM to allow
+                  nested routing within application components 💪
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
