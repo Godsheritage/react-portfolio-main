@@ -64,8 +64,7 @@ const Projects = () => {
                   where users order can order shoes of their choice. *Developed
                   Front End experience using React JS, Context, And SASS *Built
                   Application with React while managing state with the
-                  useContext API *Implemented the React Router DOM to allow
-                  nested routing within application components 💪
+                  useContext API
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
