@@ -68,7 +68,7 @@ const Projects = () => {
                 <div className="btn-main">
                   <button className="btn-3">
                     <a
-                      href="https://github.com/Godsheritage/Movie-Fight-"
+                      href="https://github.com/Godsheritage/e-commerce-store-app"
                       target="_blank"
                       rel="noreferrer"
                     >
