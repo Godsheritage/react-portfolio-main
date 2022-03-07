@@ -58,12 +58,12 @@ const Projects = () => {
             </div>
             <div className="back">
               <div className="back-content middle">
-                <h2>Movie Fight</h2>
+                <h2>Shoe Store</h2>
                 <span>
-                  Movie FIGHT is a visually pleasing web application that allows
-                  users to search for their two favourite movies and
-                  automatically compares them for you to show you the stronger
-                  one 💪
+                Shoe store is a visually appealing E-commerce web application, where users order can order shoes of their choice.
+*Developed Front End experience using React JS, Context, And SASS
+*Built Application with React while managing state with the useContext API
+*Implemented the React Router DOM to allow nested routing within application components 💪
                 </span>
                 <div className="btn-main">
                   <button className="btn-3">
@@ -77,7 +77,7 @@ const Projects = () => {
                   </button>
                   <button className="btn-3-1">
                     <a
-                      href="https://godsheritage.github.io/Movie-Fight-/"
+                      href="https://shoe-store-one.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
